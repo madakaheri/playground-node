@@ -1,0 +1,34 @@
+{
+  "name": "@madakaheri/playground-node",
+  "version": "0.0.1",
+  "description": "🧪 Node.jsの実験",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/madakaheri/playground-node.git"
+  },
+  "keywords": [
+    "playground"
+  ],
+  "author": "Madaka Heri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madakaheri/playground-node/issues"
+  },
+  "homepage": "https://github.com/madakaheri/playground-node#readme",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "devDependencies": {
+    "ava": "^6.1.2",
+    "xo": "^0.58.0"
+  },
+  "xo": {
+    "rules": {
+      "capitalized-comments": "off"
+    }
+  }
+}
